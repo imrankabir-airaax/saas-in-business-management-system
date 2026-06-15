@@ -127,7 +127,7 @@ Expected outcomes include:
 
 # Initial Project Structure
 
-```bash
+
 saas-in-business-management-system/
 │
 ├── admin/
@@ -140,20 +140,191 @@ saas-in-business-management-system/
 ├── ai/
 ├── README.md
 └── plugin.php
-```
+
 
 ---
 
-# GitHub Repository
+---
 
-Repository Link:
-Add your GitHub repository link here after creation.
+# Repository Structure
 
-Example:
-https://github.com/yourusername/saas-in-business-management-system
+
+frontend/
+backend/
+database/
+documentation/
+diagrams/
+README.md
+
+
+### Folder Description
+
+**frontend/**
+
+* User interface planning
+* Dashboard layouts
+* Frontend resources
+
+**backend/**
+
+* API design documentation
+* Business logic planning
+* AI integration modules
+
+**database/**
+
+* Database schema design
+* Table structures
+* ER diagrams
+
+**documentation/**
+
+* Project Proposal
+* Team Information Sheet
+* Project planning documents
+
+**diagrams/**
+
+* System Architecture Diagram
+* Activity Diagram
+* AI Workflow Diagram
 
 ---
 
-# Project Status
+# AI Integration Workflow
 
-Initial Proposal and Planning Phase
+Business Data (Sales, Expenses, Inventory)
+
+↓
+
+WordPress Plugin Backend
+
+↓
+
+AI Integration Layer
+
+↓
+
+OpenAI API / Gemini API
+
+↓
+
+AI Analysis & Recommendation Generation
+
+↓
+
+Analytics Dashboard
+
+↓
+
+Business Insights & Reports
+
+---
+
+# System Architecture
+
+The system follows a layered architecture consisting of:
+
+* Frontend Layer (WordPress Dashboard)
+* Backend Layer (PHP Plugin Logic)
+* Database Layer (MySQL)
+* AI Integration Layer
+* External AI Service (OpenAI/Gemini API)
+
+Architecture diagrams are available in the `diagrams/` directory.
+
+---
+
+# API Design Overview
+
+### Authentication APIs
+
+* POST /api/auth/login
+* POST /api/auth/logout
+
+### Inventory APIs
+
+* GET /api/inventory
+* POST /api/inventory/add
+* PUT /api/inventory/update
+
+### Sales APIs
+
+* POST /api/sales/add
+* GET /api/sales/report
+
+### Expense APIs
+
+* POST /api/expenses/add
+* GET /api/expenses/report
+
+### AI Analytics APIs
+
+* POST /api/ai/analyze
+* POST /api/ai/recommendation
+
+---
+
+# Current Project Progress
+
+### Completed Tasks
+
+✅ Project proposal completed
+
+✅ Team information sheet prepared
+
+✅ GitHub repository created
+
+✅ Repository structure organized
+
+✅ README.md updated
+
+✅ Initial project folders created
+
+✅ System architecture diagram prepared
+
+✅ Activity diagram prepared
+
+✅ AI integration workflow designed
+
+✅ API design document completed
+
+---
+
+# Future Development Plan
+
+### Phase 1
+
+* Database design
+* WordPress plugin setup
+* User authentication module
+
+### Phase 2
+
+* Inventory management system
+* Sales management module
+* Expense tracking module
+
+### Phase 3
+
+* AI analytics integration
+* Recommendation engine
+* Reporting dashboard
+
+### Phase 4
+
+* Testing and debugging
+* Performance optimization
+* Final deployment
+
+---
+
+# References
+
+1. WordPress Developer Documentation – https://developer.wordpress.org
+
+2. OpenAI API Documentation – https://platform.openai.com/docs
+
+3. Google Gemini API Documentation – https://ai.google.dev/docs
+
+4. Pressman, R. S., & Maxim, B. R. Software Engineering: A Practitioner's Approach, 9th Edition, McGraw-Hill Education, 2019.
