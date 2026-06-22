@@ -319,6 +319,133 @@ Architecture diagrams are available in the `diagrams/` directory.
 
 ---
 
+## Wireframes and UI Designs
+
+The initial user interface designs for the SaaS in Business Management System have been completed. The wireframes focus on providing a clean and intuitive user experience for business owners.
+
+### Designed Screens
+
+- Landing/Home Page
+- Login Page
+- Registration Page
+- Dashboard
+- User Profile Page
+- Inventory Management Page
+- Sales Management Page
+- Expense Management Page
+- AI Insights Page
+
+UI design files and exported images are available in the `frontend/` and `diagrams/` directories.
+
+---
+
+## User Flow Design
+
+The user flow demonstrates how business owners interact with the system.
+
+Landing Page
+
+↓
+
+Registration / Login
+
+↓
+
+Dashboard
+
+↓
+
+Select Feature
+
+↓
+
+Inventory / Sales / Expenses / Reports
+
+↓
+
+Business Data Storage
+
+↓
+
+AI Analysis
+
+↓
+
+Insights & Recommendations
+
+↓
+
+Results Display
+
+The complete user flow diagram is available in the `diagrams/` directory.
+
+---
+
+## Development Roadmap
+
+| Week | Major Module | Deliverables |
+|------|---------------|---------------|
+| Week 06 | Frontend Development | UI implementation and dashboard design |
+| Week 07 | Backend Development | Database setup and API implementation |
+| Week 08 | AI Integration | OpenAI/Gemini integration and recommendation engine |
+| Week 09 | Feature Completion | Finalization of core business modules |
+| Week 10 | Testing and Debugging | System testing, bug fixing, and optimization |
+| Week 11 | Deployment | Final documentation and project deployment |
+
+---
+
+## Team Task Distribution
+
+| Team Member | Responsibilities |
+|-------------|-------------------|
+| Imran Kabir (Group Leader) | Project coordination, backend development, AI integration, deployment |
+| Sajal Biswas | Frontend development and dashboard implementation |
+| Borhan Kabir | Database design, API development, AI data processing |
+| Neeaj Morshed | UI/UX design, testing, debugging, and documentation |
+
+---
+
+## Technology Setup Plan
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP (WordPress Plugin Development) |
+| Database | MySQL |
+| AI Services | OpenAI API / Google Gemini API |
+| Platform | WordPress |
+| Version Control | GitHub |
+| Development Tools | Visual Studio Code, Git, Postman |
+| Deployment | LocalWP/XAMPP, WordPress Hosting |
+
+---
+
+## Current Project Status
+
+### Completed Tasks
+
+- Project proposal completed
+- Team information sheet prepared
+- GitHub repository created
+- Repository structure organized
+- Initial project folders created
+- System architecture diagram completed
+- API design document prepared
+- AI integration workflow designed
+- Activity diagram completed
+- User flow diagram completed
+- Wireframes and UI designs completed
+- Development roadmap prepared
+- Team responsibilities assigned
+- Technology stack finalized
+
+### Current Phase
+
+System Design and Development Planning
+
+---
+
+
 # References
 
 1. WordPress Developer Documentation – https://developer.wordpress.org
