@@ -1,0 +1,5 @@
+[29-Jun-2026 09:36:40 UTC] MonsterInsights: Running migration 1.0.0-cache-table: Create custom cache table for improved performance
+[29-Jun-2026 09:36:40 UTC] MonsterInsights: Migration 1.0.0-cache-table completed successfully in 0.03 seconds
+[29-Jun-2026 09:36:40 UTC] MonsterInsights: Running migration 1.0.1-remove-per-user-cache: Remove per-user cache metadata (switched to site-wide cache)
+[29-Jun-2026 09:36:40 UTC] MonsterInsights: Migration 1.0.1-remove-per-user-cache completed successfully in 0.00 seconds
+[29-Jun-2026 09:51:23 UTC] There aren't users with empty `account_status`. Maybe some users were approved manually or deleted.
