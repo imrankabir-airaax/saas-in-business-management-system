@@ -1,0 +1,13 @@
+/**
+ * Expenses page tweaks. Most styling comes from the shared app.css design
+ * system; this only adds a couple of page-specific touches.
+ */
+
+.sbms-page#sbms-expenses-app .sbms-table td .sbms-btn {
+	padding: 3px 10px;
+	font-size: 12px;
+}
+
+.sbms-exp-amount {
+	font-weight: 600;
+}

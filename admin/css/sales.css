@@ -1,0 +1,263 @@
+/**
+ * Sales admin styles. Scoped under .sbms-sales.
+ */
+
+.sbms-sales__title {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.sbms-sales__notice {
+	margin: 12px 0;
+	padding: 10px 14px;
+	border-radius: 6px;
+	border-left: 4px solid #72aee6;
+	background: #f0f6fc;
+}
+
+.sbms-sales__notice--success {
+	border-left-color: #00a32a;
+	background: #edfaef;
+}
+
+.sbms-sales__notice--error {
+	border-left-color: #d63638;
+	background: #fcf0f1;
+}
+
+.sbms-sales__table-wrap {
+	position: relative;
+	min-height: 120px;
+}
+
+.sbms-sales__num {
+	text-align: right;
+}
+
+.sbms-sales__table td.sbms-sales__num {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.sbms-sales__actions-col {
+	width: 90px;
+}
+
+.sbms-sales__badge {
+	display: inline-block;
+	padding: 1px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.7;
+	background: #edfaef;
+	color: #007017;
+}
+
+.sbms-sales__badge--refunded,
+.sbms-sales__badge--cancelled {
+	background: #fcf0f1;
+	color: #b32d2e;
+}
+
+.sbms-sales__state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 40px 20px;
+	text-align: center;
+	color: #50575e;
+}
+
+.sbms-sales__error {
+	color: #b32d2e;
+}
+
+.sbms-sales__pagination {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 14px 0;
+}
+
+.sbms-sales__pageinfo {
+	color: #50575e;
+	font-size: 13px;
+}
+
+/* Modal */
+.sbms-sales__modal {
+	position: fixed;
+	inset: 0;
+	z-index: 100000;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.sbms-sales__modal[hidden] {
+	display: none;
+}
+
+.sbms-sales__modal-backdrop {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.sbms-sales__modal-box {
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	padding: 22px 24px;
+	width: 760px;
+	max-width: calc(100% - 40px);
+	margin-top: 5vh;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+	max-height: 90vh;
+	overflow: auto;
+}
+
+.sbms-sales__row {
+	display: flex;
+	gap: 16px;
+}
+
+.sbms-sales__row .sbms-sales__field {
+	flex: 1;
+}
+
+.sbms-sales__field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin: 10px 0;
+}
+
+.sbms-sales__field input,
+.sbms-sales__field select,
+.sbms-sales__field textarea {
+	width: 100%;
+}
+
+.sbms-sales__subhead {
+	margin: 16px 0 6px;
+}
+
+.sbms-sales__lines {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.sbms-sales__lines th,
+.sbms-sales__lines td {
+	padding: 6px 8px;
+	border-bottom: 1px solid #f0f0f1;
+	vertical-align: middle;
+}
+
+.sbms-sales__lines th {
+	text-align: left;
+	font-size: 12px;
+	color: #50575e;
+}
+
+.sbms-sales__lines .sbms-sales__num {
+	text-align: right;
+}
+
+.sbms-line-product {
+	width: 100%;
+	min-width: 180px;
+}
+
+.sbms-line-qty {
+	width: 80px;
+	text-align: right;
+}
+
+.sbms-line-bad input {
+	border-color: #d63638;
+	box-shadow: 0 0 0 1px #d63638;
+}
+
+.sbms-line-warn {
+	color: #b32d2e;
+	font-size: 11px;
+	display: block;
+}
+
+.sbms-sales__totals {
+	margin: 16px 0;
+	max-width: 320px;
+	margin-left: auto;
+}
+
+.sbms-sales__totrow {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+	padding: 4px 0;
+}
+
+.sbms-sales__totrow input {
+	width: 120px;
+	text-align: right;
+}
+
+.sbms-sales__totrow--grand {
+	font-size: 16px;
+	font-weight: 700;
+	border-top: 2px solid #dcdcde;
+	margin-top: 4px;
+	padding-top: 8px;
+}
+
+.sbms-sales__form-error {
+	margin: 10px 0;
+	padding: 8px 12px;
+	border-radius: 6px;
+	background: #fcf0f1;
+	color: #b32d2e;
+	border-left: 4px solid #d63638;
+}
+
+.sbms-sales__modal-actions {
+	display: flex;
+	gap: 10px;
+	margin-top: 18px;
+}
+
+/* Detail modal table */
+.sbms-detail__table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 8px 0;
+}
+
+.sbms-detail__table th,
+.sbms-detail__table td {
+	padding: 6px 8px;
+	border-bottom: 1px solid #f0f0f1;
+	text-align: left;
+}
+
+.sbms-detail__table .sbms-sales__num {
+	text-align: right;
+}
+
+.sbms-detail__meta {
+	margin: 4px 0 12px;
+	color: #50575e;
+}
+
+@media screen and (max-width: 680px) {
+	.sbms-sales__row {
+		flex-direction: column;
+		gap: 0;
+	}
+}

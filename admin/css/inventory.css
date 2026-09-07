@@ -1,0 +1,225 @@
+/**
+ * Inventory admin styles.
+ * Scoped under .sbms-inv so nothing leaks into the wider wp-admin UI.
+ */
+
+.sbms-inv__title {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.sbms-inv__notice {
+	margin: 12px 0;
+	padding: 10px 14px;
+	border-radius: 6px;
+	border-left: 4px solid #72aee6;
+	background: #f0f6fc;
+}
+
+.sbms-inv__notice--success {
+	border-left-color: #00a32a;
+	background: #edfaef;
+}
+
+.sbms-inv__notice--error {
+	border-left-color: #d63638;
+	background: #fcf0f1;
+}
+
+.sbms-inv__toolbar {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin: 14px 0;
+	flex-wrap: wrap;
+}
+
+.sbms-inv__search {
+	min-width: 280px;
+	max-width: 420px;
+	width: 100%;
+}
+
+.sbms-inv__filter {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	white-space: nowrap;
+}
+
+.sbms-inv__table-wrap {
+	position: relative;
+	min-height: 120px;
+}
+
+.sbms-inv__num {
+	text-align: right;
+}
+
+.sbms-inv__actions-col {
+	width: 150px;
+}
+
+.sbms-inv__table td.sbms-inv__num {
+	text-align: right;
+	white-space: nowrap;
+}
+
+.sbms-inv__row-low td {
+	background: #fcf6e6 !important;
+}
+
+.sbms-inv__badge {
+	display: inline-block;
+	padding: 1px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.7;
+}
+
+.sbms-inv__badge--low {
+	background: #fcf0e6;
+	color: #9a4b00;
+}
+
+.sbms-inv__badge--active {
+	background: #edfaef;
+	color: #007017;
+}
+
+.sbms-inv__badge--inactive {
+	background: #f0f0f1;
+	color: #646970;
+}
+
+.sbms-inv__stock {
+	font-weight: 600;
+}
+
+.sbms-inv__actions {
+	display: inline-flex;
+	gap: 6px;
+}
+
+.sbms-inv__state {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 40px 20px;
+	text-align: center;
+	color: #50575e;
+}
+
+.sbms-inv__loading {
+	flex-direction: row;
+}
+
+.sbms-inv__loading .spinner {
+	float: none;
+	margin: 0;
+}
+
+.sbms-inv__error {
+	color: #b32d2e;
+}
+
+.sbms-inv__pagination {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 14px 0;
+}
+
+.sbms-inv__pageinfo {
+	color: #50575e;
+	font-size: 13px;
+}
+
+/* Modal */
+.sbms-inv__modal {
+	position: fixed;
+	inset: 0;
+	z-index: 100000;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.sbms-inv__modal[hidden] {
+	display: none;
+}
+
+.sbms-inv__modal-backdrop {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.sbms-inv__modal-box {
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	padding: 22px 24px;
+	width: 640px;
+	max-width: calc(100% - 40px);
+	margin-top: 6vh;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+	max-height: 88vh;
+	overflow: auto;
+}
+
+.sbms-inv__modal-box--sm {
+	width: 420px;
+}
+
+.sbms-inv__row {
+	display: flex;
+	gap: 16px;
+}
+
+.sbms-inv__row .sbms-inv__field {
+	flex: 1;
+}
+
+.sbms-inv__field {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin: 10px 0;
+}
+
+.sbms-inv__field input,
+.sbms-inv__field select,
+.sbms-inv__field textarea {
+	width: 100%;
+}
+
+.sbms-req {
+	color: #d63638;
+}
+
+.sbms-inv__form-error {
+	margin: 10px 0;
+	padding: 8px 12px;
+	border-radius: 6px;
+	background: #fcf0f1;
+	color: #b32d2e;
+	border-left: 4px solid #d63638;
+}
+
+.sbms-inv__modal-actions {
+	display: flex;
+	gap: 10px;
+	margin-top: 18px;
+}
+
+@media screen and (max-width: 600px) {
+	.sbms-inv__row {
+		flex-direction: column;
+		gap: 0;
+	}
+}
